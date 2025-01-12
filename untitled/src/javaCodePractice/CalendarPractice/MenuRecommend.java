@@ -1,4 +1,4 @@
-package javaCodePractice;
+package javaCodePractice.CalendarPractice;
 
 public class MenuRecommend {
     private static int point;

@@ -23,6 +23,9 @@ public class ShoppingCart {
         for (Item item : list){
             total += item.getTotalPrice();
         }
+        //위에 똑같은 루프를 두번 도는데 굳이 루프 하나에 두지 않는 이유
+        //총 가격을 계산하는 부분을 띠로 두어 유지 보수하기 편하게 하기 위해서
+
         System.out.println("전체 가격 합: " + total);
     }
 }

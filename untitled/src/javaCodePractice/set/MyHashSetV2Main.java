@@ -10,5 +10,17 @@ public class MyHashSetV2Main {
         set.add("AB");
         set.add("SET");
         System.out.println(set);
+
+        System.out.println("\"A\".hashCode() = " + "A".hashCode());
+        System.out.println("\"B\".hashCode() = " + "B".hashCode());
+        System.out.println("\"C\".hashCode() = " + "C".hashCode());
+        System.out.println("\"D\".hashCode() = " + "D".hashCode());
+        System.out.println("\"AB\".hashCode() = " + "AB".hashCode());
+        System.out.println("\"SET\".hashCode() = " + "SET".hashCode());
+
+        //검색
+        String searchValue = "SET";
+        boolean result = set.contains(searchValue);
+        System.out.println("set.contains(SET) = " + result);
     }
 }

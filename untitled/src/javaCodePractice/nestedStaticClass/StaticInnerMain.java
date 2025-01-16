@@ -1,4 +1,4 @@
-package javaCodePractice.staticInnerPractice;
+package javaCodePractice.nestedStaticClass;
 
 public class StaticInnerMain {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package javaCodePractice.ListPracticePackage.ex1;
+package javaCodePractice.List.ex1;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ListEx2 {
+public class ListEx3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<Integer> list = new ArrayList<>();
@@ -12,8 +12,14 @@ public class ListEx2 {
         while (true){
             int integer = sc.nextInt();
             if (integer == 0) {
-                System.out.println("출력");
-                System.out.println(list.toString().replace("[", "").replace("]", ""));
+                int total = 0;
+                for (int i = 0; i < list.size(); i++) {
+                    total += list.get(i);
+                }
+
+                System.out.println("입력한 정수의 합: " + total);
+                double average = (double) total / list.size();
+                System.out.println("입력한 정수의 평균: " + average);
                 break;
             } else {
                 list.add(integer);

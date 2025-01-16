@@ -1,4 +1,4 @@
-package javaCodePractice.staticInnerPractice;
+package javaCodePractice.nestedStaticClass;
 
 public class StaticInner {
     public Node node = new Node();

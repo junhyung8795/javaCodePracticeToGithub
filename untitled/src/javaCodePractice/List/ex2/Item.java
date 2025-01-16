@@ -1,4 +1,4 @@
-package javaCodePractice.ListPracticePackage.ex2;
+package javaCodePractice.List.ex2;
 
 public class Item {
     private String name;

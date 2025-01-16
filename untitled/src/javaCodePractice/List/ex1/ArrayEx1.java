@@ -1,4 +1,4 @@
-package javaCodePractice.ListPracticePackage.ex1;
+package javaCodePractice.List.ex1;
 
 public class ArrayEx1 {
     public static void main(String[] args) {

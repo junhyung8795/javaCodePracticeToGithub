@@ -1,4 +1,4 @@
-package javaCodePractice.ListPracticePackage.ex2;
+package javaCodePractice.List.ex2;
 
 import java.util.ArrayList;
 

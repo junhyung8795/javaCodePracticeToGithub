@@ -1,4 +1,4 @@
-package javaCodePractice.CalendarPractice;
+package javaCodePractice.Calendar;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

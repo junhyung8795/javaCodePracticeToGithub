@@ -59,8 +59,7 @@ public class MyHashSetV2 {
     }
 
     private int hashIndex(Object value){
-        int hashCode = value.hashCode();
-        return hashCode % capacity;
+        return Math.abs(value.hashCode()) % capacity;
     }
 
     public int getSize() {

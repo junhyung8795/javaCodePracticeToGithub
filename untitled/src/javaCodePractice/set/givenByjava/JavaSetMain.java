@@ -11,8 +11,15 @@ public class JavaSetMain {
         run(new HashSet<String>());
         run(new LinkedHashSet<String>());
         run(new TreeSet<String>());
+
     }
     static void run(Set<String> set){
         System.out.println("set = " + set.getClass());
+        set.add("lol");
+        set.add("valorant");
+        set.add("AOs");
+        set.add("1");
+        set.add("2");
+        System.out.println("set = " + set);
     }
 }

@@ -20,3 +20,7 @@ public class StackMain {
         System.out.println("stack = " + stack);//pop으로 꺼내면 해당 요소를 .
     }
 }
+//주의!
+//자바의 Stack클래스는 내부에서 Vector라는 자료구조를 사용한다.
+//Vector는 지금은 사용되지 않고 하위 호환을 위해 존재한다.
+//지금은 이보다 더 좋은 자료 구조가 많아서 굳이 stack을 쓰고 싶다면 deque를 사용하자.

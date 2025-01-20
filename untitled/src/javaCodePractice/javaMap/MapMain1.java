@@ -1,5 +1,6 @@
 package javaCodePractice.javaMap;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -27,6 +28,11 @@ public class MapMain1 {
             Integer value = student.get(key);
             System.out.println(key + ":" + value);
 
+        }
+
+        Collection<Integer> values = student.values();
+        for (Integer value : values) {
+            System.out.println(value);
         }
     }
 }

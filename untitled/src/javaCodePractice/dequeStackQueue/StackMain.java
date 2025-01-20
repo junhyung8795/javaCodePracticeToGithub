@@ -15,6 +15,8 @@ public class StackMain {
 
         //요소 꺼내기
         System.out.println("stack.pop() = " + stack.pop());
-        System.out.println("stack = " + stack);//pop으로 꺼내면 stack에서 3이 없어져 있다.
+        System.out.println("stack.pop() = " + stack.pop());
+        System.out.println("stack.pop() = " + stack.pop());
+        System.out.println("stack = " + stack);//pop으로 꺼내면 해당 요소를 .
     }
 }

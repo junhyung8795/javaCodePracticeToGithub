@@ -2,6 +2,7 @@ package javaCodePractice.javaMap;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class MapMain1 {
     public static void main(String[] args) {
@@ -14,5 +15,13 @@ public class MapMain1 {
         student.put("studentC", 70);
         student.put("studentD", 60);
         student.put("studentE", 60);//E는 D와 성적이 같다고 넣어도 Value는 값 중복을 허락한다.
+        System.out.println(student);
+
+        //특정 학생의 값 조회 --> 특정 key를 통해 value를 찾음. HashSet과 유사
+        Integer result = student.get("studentA");
+        System.out.println(result);
+
+        System.out.println("keySet 활용");
+        Set<String> keySet = student.keySet();
     }
 }

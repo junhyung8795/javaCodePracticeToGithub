@@ -33,6 +33,6 @@ public class MapMain1 {
         Collection<Integer> values = student.values();
         for (Integer value : values) {
             System.out.println(value);
-        }
+        }//컬렉션인 이유는 값이 중복은 가능하기 때문 + 리스트가 아닌 이유는 리스트는 순서를 보장하는데 얘는 아니다. 
     }
 }

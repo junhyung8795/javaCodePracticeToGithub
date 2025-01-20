@@ -33,3 +33,6 @@ public class DequeMain {
 //Dueue인터페이스의 구현체로 ArrayDeque, LinkedList가 있는데 ArrayDeque는 ArrayList와 비슷하다
 //성능적으로 모든 부분에서 ArrayDeuque가 좋다. 데이터 앞 뒤에서 검색하고 꺼내는 거도 ArrayDeque가 좋다
 //거의 모든 상황에서 Deque의 구현체로 ArrayDeque가 선호 된다.
+
+//그런데 Queue는 인터페이스가 있고 아래에 Deque인터페이스 있고 그런데
+//Stack는 queue처럼 인터페이스가 없고 바로 자바 클래스로 생성하는게 차이가 있다. 

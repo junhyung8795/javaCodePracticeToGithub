@@ -36,7 +36,7 @@ public class MapMain1 {
             String key = entry.getKey();//해당 객체에서 키와 값을 꺼낸다.
             Integer value = entry.getValue();
             System.out.println(key + ":" + value);
-        }//values와 keySet은 각각 값과 키만 볼 수 있지만 entrySet은 키와 값을 쌍으로 뽑을 수 있다. 
+        }//values와 keySet은 각각 값과 키만 볼 수 있지만 entrySet은 키와 값을 쌍으로 뽑을 수 있다.
 
 
         Collection<Integer> values = student.values();

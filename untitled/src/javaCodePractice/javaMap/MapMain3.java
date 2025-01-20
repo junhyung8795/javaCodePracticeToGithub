@@ -16,5 +16,10 @@ public class MapMain3 {
             studentMap.put("John", 70);
         }
         System.out.println("studentMap = " + studentMap);
+
+        //학생이 없는 경우에만 데이터 추가2
+        studentMap.putIfAbsent("John", 59);
+        studentMap.putIfAbsent("stdudentG", 880);
+        System.out.println("studentMap = " + studentMap);
     }
 }

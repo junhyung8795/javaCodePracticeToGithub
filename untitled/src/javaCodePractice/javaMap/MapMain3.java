@@ -23,3 +23,9 @@ public class MapMain3 {
         System.out.println("studentMap = " + studentMap);
     }
 }
+
+//Map과 Set은 거의 같다. 중복을 허용하지 않고 순서도 보장하지 않는다는 공통점
+//단순히 Map은 Set에서 value를 추가로 가지고 있는 것.
+//이런 이유로 Set과 Map의 구현체는 거의 같다. HashSet --> HashMap, LinkedHashSet --> LinkedHashMap, TreeSet --> TreeMap
+//참고 실제로 HashSet의 구현은 대부분 HashMap을 가져다 쓴다. HashMap에서 밸류만 없으면 HashSet이 되기 때문. LinkedHashSet도 마찬가지.
+//해시 코드 구해서 자료 집어 넣는 모든 과정 다 동일하고 진짜 Set에서 value만 따라오는 구조.

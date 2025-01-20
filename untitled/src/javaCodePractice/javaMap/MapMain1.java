@@ -23,5 +23,10 @@ public class MapMain1 {
 
         System.out.println("keySet 활용");
         Set<String> keySet = student.keySet();
+        for (String key : keySet) {
+            Integer value = student.get(key);
+            System.out.println(key + ":" + value);
+
+        }
     }
 }

@@ -22,5 +22,7 @@ public class MyArrayMain {
         for (int value: myArr){
             System.out.println("value = " + value);
         }
+        //향상된 for문으로 불리는 for-each문은 자료 구조를 순회하는게 목적이다.
+        //자바는 Iterable 인터페이스를 구현한 객체에 대해서 향상된 for문을 사용할 수 있게 해준다.
     }
 }

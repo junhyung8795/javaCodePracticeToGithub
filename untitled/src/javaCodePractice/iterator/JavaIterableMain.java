@@ -11,20 +11,22 @@ public class JavaIterableMain {
         list.add(1);
         list.add(2);
         list.add(3);
-
         Iterator<Integer> listIter = list.iterator();
-        while (listIter.hasNext()) {
-            System.out.println("리스트의 순회" + listIter.next());
-        }
+        printAll(listIter);
+
 
         HashSet<Integer> set = new HashSet<>();
         set.add(1);
         set.add(2);
         set.add(3);
         Iterator<Integer> setIter = set.iterator();
-        while (setIter.hasNext()) {
-            System.out.println("셋의 순회 = " + setIter.next());
+        printAll(setIter);
+
+    }
+
+    private static void printAll(Iterator<Integer> iterator) {
+        while (iterator.hasNext()) {
+            System.out.println("set, list가 둘다 사용하는 공통 메서드로 iteraotor 받아서 순회 = " + iterator.next());
         }
-        
     }
 }

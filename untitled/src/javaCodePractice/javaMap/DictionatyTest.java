@@ -30,7 +30,11 @@ public class DictionatyTest {
             if (englishTarget.equals("q")){
                 break;
             }
-            System.out.println(englishTarget + "의 뜻 :" + map.get(englishTarget));
+            if (!map.containsKey(englishTarget)){
+                System.out.println(englishTarget + "은 등록되지 않은 단어입니다!");
+            } else {
+                System.out.println(englishTarget + "의 뜻 :" + map.get(englishTarget));
+            }
 
         }
 

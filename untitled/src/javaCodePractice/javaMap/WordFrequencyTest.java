@@ -16,7 +16,7 @@ public class WordFrequencyTest {
 //            Integer count = map.getOrDefault(word, 0);
 //            map.getOrDefault(word, 0)는 word키에 해당하는 value값이 없으면 0을 default로 반환한다는 코드다\
 //            count++;
-//            map.put(word, count); 이와같이 접근하는 방법도 있다. 
+//            map.put(word, count); 이와같이 접근하는 방법도 있다.
 
         }
 

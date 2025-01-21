@@ -35,4 +35,4 @@ public class DequeMain {
 //거의 모든 상황에서 Deque의 구현체로 ArrayDeque가 선호 된다.
 
 //그런데 Queue는 인터페이스가 있고 아래에 Deque인터페이스 있고 그런데
-//Stack는 queue처럼 인터페이스가 없고 바로 자바 클래스로 생성하는게 차이가 있다. 
+//Stack는 queue처럼 인터페이스가 없고 바로 자바 클래스로 생성하는게 차이가 있다.

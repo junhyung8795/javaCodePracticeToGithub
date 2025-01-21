@@ -1,5 +1,7 @@
 package javaCodePractice.iterator;
 
+import java.util.Iterator;
+
 public class MyArrayMain {
     public static void main(String[] args) {
 
@@ -9,5 +11,10 @@ public class MyArrayMain {
         //그런데 이는 지금 당장만 배열인 것이고 이게 트리인지, 셋인지, 링크드 리스트인지 모르는 상황이라고 가정해보자
         //자료 구조마다 순회하는 방법이 다 다른다. 자료 구조마다 다른 순회 방법을 전부 외우는 건 비효율 적이다.
         //일관된 방법으로 같은 메서드를 써서 모든 자료 구조의 데이터를 순회하고 싶어! -->Iterator를 사용해야 한다
+
+        Iterator<Integer> iterator = myArr.iterator();
+        while (iterator.hasNext()) {
+            System.out.println("순회 값 = " + iterator.next());
+        }
     }
 }

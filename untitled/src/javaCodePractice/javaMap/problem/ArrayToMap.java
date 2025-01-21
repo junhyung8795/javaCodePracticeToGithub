@@ -1,4 +1,4 @@
-package javaCodePractice.javaMap;
+package javaCodePractice.javaMap.problem;
 
 import java.util.HashMap;
 import java.util.Map;

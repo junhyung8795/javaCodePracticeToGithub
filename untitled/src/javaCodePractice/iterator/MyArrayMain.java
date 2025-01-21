@@ -16,5 +16,11 @@ public class MyArrayMain {
         while (iterator.hasNext()) {
             System.out.println("순회 값 = " + iterator.next());
         }
+
+        //추가 ---- for-each
+        System.out.println("for-each 사용");
+        for (int value: myArr){
+            System.out.println("value = " + value);
+        }
     }
 }

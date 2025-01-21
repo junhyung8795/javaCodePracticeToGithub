@@ -24,5 +24,10 @@ public class MyArrayMain {
         }
         //향상된 for문으로 불리는 for-each문은 자료 구조를 순회하는게 목적이다.
         //자바는 Iterable 인터페이스를 구현한 객체에 대해서 향상된 for문을 사용할 수 있게 해준다.
+        //for-each문은 사실
+//        while (iterator.hasNext()) {
+//            System.out.println("순회 값 = " + iterator.next());
+//        }
+        //이거랑 같다. 자바는 향상된 for문을 쓰면 컴파일 시점에 위 코드로 변경해준다.
     }
 }

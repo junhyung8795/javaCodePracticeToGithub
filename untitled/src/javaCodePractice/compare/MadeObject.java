@@ -27,8 +27,11 @@ public class MadeObject implements Comparable<MadeObject> {
                 '}';
     }
 
+    //이 클래스의 기본 정렬 방식을 나이의 오름차 순으로 구현
+    //++Comparable를 통해 구현한 순서를 자연 순서(Natural Ordering)라고 부른다.
     @Override
     public int compareTo(MadeObject o) {
         return this.age < o.age ?  -1 : (this.age == o.age ? 0 : 1) ;
     }
+
 }

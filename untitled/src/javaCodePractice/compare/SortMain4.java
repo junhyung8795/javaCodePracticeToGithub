@@ -1,5 +1,6 @@
 package javaCodePractice.compare;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -24,5 +25,17 @@ public class SortMain4 {
         list.sort(new NameComparator());
 //        list.sort(new NameComparator().reversed());하면 name으로 오름차가 된다.
         System.out.println(list);
+
+        //컬렉션을 이용한 방법이 더 있다.
+        System.out.println("컬렉션 유틸 기본정렬");
+        Collections.sort(list);
+        System.out.println(list);
+
+        System.out.println("컬렉션 유틸 Comparator 정렬");
+        Collections.sort(list, new NameComparator());
+        System.out.println(list);
+
+
+
     }
 }

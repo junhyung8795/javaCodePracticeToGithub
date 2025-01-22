@@ -1,0 +1,28 @@
+package javaCodePractice.compare;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class SortMain4 {
+    public static void main(String[] args) {
+        MadeObject madeObject1 = new MadeObject("a", 50);
+        MadeObject madeObject2 = new MadeObject("b", 40);
+        MadeObject madeObject3 = new MadeObject("c", 30);
+
+        List<MadeObject> list = new LinkedList<>();
+        list.add(madeObject1);
+        list.add(madeObject2);
+        list.add(madeObject3);
+        System.out.println("기본 데이터");
+        System.out.println(list);
+
+        System.out.println("Comparable 기본 정렬 --> age로 오름차");
+        list.sort(null);
+        System.out.println(list);
+
+        System.out.println("NameComparator 정렬--> name으로 내림차");
+        list.sort(new NameComparator());
+//        list.sort(new NameComparator().reversed());하면 name으로 오름차가 된다.
+        System.out.println(list);
+    }
+}

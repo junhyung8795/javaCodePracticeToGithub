@@ -13,9 +13,9 @@ public class SortMain3 {
         System.out.println(Arrays.toString(myObjects));
 
         //기본 정렬 --> 오름차 정렬
-        System.out.println("Comparable 기본 정렬");
-        Arrays.sort(myObjects);
-        System.out.println(Arrays.toString(myObjects));
+//        System.out.println("Comparable 기본 정렬");
+//        Arrays.sort(myObjects);
+//        System.out.println(Arrays.toString(myObjects));
 
         System.out.println("NameComparator 정렬");
         Arrays.sort(myObjects, new NameComparator());

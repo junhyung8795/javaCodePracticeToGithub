@@ -14,6 +14,9 @@ public class  SortMain2 {
         System.out.println("내림자 comparator 적용");
         Arrays.sort(arr, new DescComparator());
         System.out.println(Arrays.toString(arr));
+
+        Arrays.sort(arr, new AscComparator().reversed());
+        System.out.println(Arrays.toString(arr));
     }
     static class DescComparator implements Comparator<Integer> {
         @Override

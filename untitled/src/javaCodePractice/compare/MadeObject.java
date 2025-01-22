@@ -29,6 +29,6 @@ public class MadeObject implements Comparable<MadeObject> {
 
     @Override
     public int compareTo(MadeObject o) {
-        return 0;
+        return this.age < o.age ?  -1 : (this.age == o.age ? 0 : 1) ;
     }
 }
